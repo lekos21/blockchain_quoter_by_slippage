@@ -1,5 +1,5 @@
-# Maximum Swap Size Finder for a given Slippage
-This Python script is designed to find the maximum swap size for a given slippage on different Ethereum-based decentralized exchanges (DEXs) such as Uniswap and Curve. The script uses binary search to find the swap size that results in a target slippage. It's predisposed for Uniswap (v2 and v3) and Curve. The code interrogates the DEX multiple times requesting a quotation on a trade, converging to a particular size where the slippage is equal to the target. 
+# Find the best swap for a given slippage
+This Python script is designed to find the maximum swap size for a given slippage on different Ethereum-based DEXs such as Uniswap and Curve. The script uses binary search to find the swap size that results in a target slippage. It's predisposed for Uniswap (v2 and v3) and Curve. The code interrogates the DEX multiple times requesting a quotation on a trade, converging to a particular size where the slippage is equal to the target. 
 
 ## Requirements
 * Python 3.6 or higher
